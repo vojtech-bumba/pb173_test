@@ -1,0 +1,5 @@
+This is my attempt to implement hw01.
+Unfortunately, I was not able to complete encryption & decryption with openSLL in time, 
+so I commited at least the hashing and reading.
+As was said during the first seminar, openSSL is very badly documented, therefore it took
+me much more time than I expected, to implmement enc/decrypting.
