@@ -3,7 +3,7 @@
 
 # Variable settings
 CXXFLAGS=-Wall -Wextra 
-SOURCES_GEN=src/fact.cpp
+SOURCES_GEN=cryptographer.cpp
 # Source and object lists for main program
 SOURCES_MAIN=$(SOURCES_GEN) hw01_new.cpp
 OBJECTS_MAIN=$(SOURCES_MAIN:.cpp=.o)
