@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <cstring>
 
 Cryptographer::Cryptographer(std::vector<unsigned char> newKey) {
 	if (newKey.size() != 16) {
