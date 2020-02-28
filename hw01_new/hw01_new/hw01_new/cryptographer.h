@@ -1,8 +1,8 @@
 #pragma once
 #include <string>
 #include <vector>
-#include "mbedtls/aes.h";
-#include "mbedtls/sha512.h";
+#include "mbedtls/aes.h"
+#include "mbedtls/sha512.h"
 
 class Cryptographer {
 	std::vector<unsigned char> key;
