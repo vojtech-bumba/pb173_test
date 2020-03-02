@@ -3,12 +3,12 @@
 
 # Variable settings
 CXXFLAGS=-Wall -Wextra 
-SOURCES_GEN=hw01_new/hw01_new/hw01_new/cryptographer.cpp
+SOURCES_GEN=hw01/cryptographer.cpp
 # Source and object lists for main program
-SOURCES_MAIN=$(SOURCES_GEN) hw01_new/hw01_new/hw01_new/hw01_new.cpp
+SOURCES_MAIN=$(SOURCES_GEN) hw01/hw01_new.cpp hw01/mbedtls/*.h
 OBJECTS_MAIN=$(SOURCES_MAIN:.cpp=.o)
 # Source and object lists for testing binary
-SOURCES_TEST=$(SOURCES_GEN) hw01_new/hw01_new/hw01_new/test_cryptographer.cpp
+SOURCES_TEST=$(SOURCES_GEN) hw01/test_cryptographer.cpp
 OBJECTS_TEST=$(SOURCES_TEST:.cpp=.o)
 
 # Most frequently used automatic variables:
